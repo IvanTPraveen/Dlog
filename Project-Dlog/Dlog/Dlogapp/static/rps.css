@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("img.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper .btnLogin-pop {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+
+.wrapper .btnLogin-pop:hover {
+    background: #fff;
+    color: #162938;
+}
+
+#title{
+    color: lime;
+}
+
+#title2{
+    color: lime;
+}
+
+#wins{
+    color: lime;
+}
+
+#loss{
+    color: lime;
+}
+
+#draws{
+    color: lime;
+}

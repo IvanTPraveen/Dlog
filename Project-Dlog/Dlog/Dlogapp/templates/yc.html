@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'yc.css' %}">
+    <title>YoutubeCommentsScraper</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Video Details</h1>
+        <form action="" method="post">
+            {% csrf_token %}
+            <div class="input-box">
+                <input type="text" placeholder="paste link here" name="input-yc" class="input-box">
+            </div><br>
+            <div>
+                <button type="submit" class="btn">submit</button><br>
+            </div><br>
+            <div class="whatever">
+                <img src="{{ pic }}" alt="badluck">
+            </div><br>
+            <h1>{{ likes }} likes</h1>
+            <h1>{{ comments }} comments</h1>
+            <h1>{{ views }} views</h1>
+        </form>
+    </div>
+</body>
+</html>
