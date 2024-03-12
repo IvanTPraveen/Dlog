@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const columns = canvas.width / scale;
 
     let losses = 0;
+    let top_score = 0;
     let snake;
     let fruit;
 
@@ -121,6 +122,13 @@ document.addEventListener('DOMContentLoaded', () => {
         this.checkCollision = function () {
             for (let i = 0; i < this.tail.length; i++) {
                 if (this.x === this.tail[i].x && this.y === this.tail[i].y) {
+                    if (top_score < this.total){
+                        top_score = this.total;
+                        document.getElementById("top_score").innerHTML = "top score = "+ this.total
+                    }else if(top_score == 0){
+                        top_score = this.total;
+                        document.getElementById("top_score").innerHTML = "top score = "+ this.total
+                    }
                     this.total = 0;
                     this.tail = [];
                     document.getElementById("score").innerHTML = "score = "+ this.total;

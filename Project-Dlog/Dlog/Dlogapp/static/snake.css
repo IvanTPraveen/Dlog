@@ -7,9 +7,9 @@ body {
 
 canvas {
     display: block;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 590px;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
     margin-right: 50px;
     background-color: #fff700;
     justify-content: center;
@@ -20,5 +20,9 @@ canvas {
 }
 
 #losses {
+    text-align: center;
+}
+
+#top_score {
     text-align: center;
 }
