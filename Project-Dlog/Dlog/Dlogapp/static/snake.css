@@ -17,12 +17,15 @@ canvas {
 
 #score {
     text-align: center;
+    font-family: cursive;
 }
 
 #losses {
     text-align: center;
+    font-family: cursive;
 }
 
 #top_score {
     text-align: center;
+    font-family: cursive;
 }
