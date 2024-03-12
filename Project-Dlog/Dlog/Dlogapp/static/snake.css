@@ -9,13 +9,14 @@ canvas {
     display: block;
     margin-top: 20px;
     margin-left: 590px;
-    margin-bottom: 5px;
+    margin-bottom: 1px;
     margin-right: 50px;
     background-color: #fff700;
     justify-content: center;
 }
 
 #score {
+    margin-top: 10px;
     text-align: center;
     font-family: cursive;
 }
