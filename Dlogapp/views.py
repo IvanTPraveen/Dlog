@@ -27,7 +27,7 @@ def yc(request):
         querystring = {"id":idontfuckingknow,"hl":"en","gl":"US"}
 
         headers = {
-            "X-RapidAPI-Key": "",
+            "X-RapidAPI-Key": "95b251cccamsh3b3f92d5f80cf62p1fc8c8jsndaa99e622323",
             "X-RapidAPI-Host": "youtube138.p.rapidapi.com"
         }
 

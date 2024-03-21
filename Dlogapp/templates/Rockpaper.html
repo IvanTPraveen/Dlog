@@ -3,18 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% load static %}
-    <link rel="stylesheet" href="{% static 'rps.css' %}">
-    <script src="{% static 'index.js' %}"></script>
+    <link rel="stylesheet" href="/static/css/rps.css">
+    <script src="/static/js/rps.js"></script>
     <title>Document</title>
 </head>
 <body class="body">
     <div class="wrapper">
         <h1></h1>
         <h1 id="title2">Rock, Paper, Scissors</h1><br>
-        <button id="rock" onclick="rock()"><img src="{% static 'download.jpg' %}" alt="rock"></button>
-        <button id="paper" onclick="paper()"><img src="{% static '202-2025619_rock-paper-scissors-png-transparent-png.png' %}" alt="paper"></button>
-        <button id="scissors" onclick="scissors()"><img src="{% static 'pngtree-entertainment-stroke-scissors-gesture-image_1247535.jpg' %}" alt="scissors"></button><br>
+        <button id="rock" onclick="rock()"><img src="/static/css/media/download.jpg" alt="rock"></button>
+        <button id="paper" onclick="paper()"><img src="/static/css/media/202-2025619_rock-paper-scissors-png-transparent-png.png" alt="paper"></button>
+        <button id="scissors" onclick="scissors()"><img src="/static/css/media/pngtree-entertainment-stroke-scissors-gesture-image_1247535.jpg" alt="scissors"></button><br>
         <h1></h1><br>
         <button id="reset" class="btnLogin-pop" onclick="reset()">Play Again</button><br>
         <h1></h1><br>
